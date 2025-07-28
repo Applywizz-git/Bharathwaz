@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cloud -->
+  <path d="M20 30C20 25.5817 23.5817 22 28 22C29.5431 22 30.9815 22.4713 32.1665 23.2855C33.383 20.7206 36.0234 19 39 19C43.4183 19 47 22.5817 47 27C47 27.3341 46.9792 27.6643 46.9397 27.9902C49.2324 29.0542 51 31.3782 51 34C51 37.3137 48.3137 40 45 40H22C18.6863 40 16 37.3137 16 34C16 31.0178 17.9996 28.4669 20.7188 27.6205C20.2415 26.4997 20 25.2761 20 24V30Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  
+  <!-- Gear / ML -->
+  <circle cx="32" cy="47" r="4" stroke="#FFFFFF" stroke-width="2"></circle>
+  <path d="M32 43V40M32 51V54M36 47H39M28 47H25M34.828 44.828L37 42.656M29.172 49.172L27 51.344M34.828 49.172L37 51.344M29.172 44.828L27 42.656" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+
+  <!-- IoT signal -->
+  <path d="M12 20C12 15.0294 16.0294 11 21 11" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M12 24C12 19.5817 15.5817 16 20 16" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+  
+  <!-- Data pipeline -->
+  <rect x="10" y="45" width="8" height="8" rx="2" stroke="#FFFFFF" stroke-width="2"></rect>
+  <rect x="46" y="45" width="8" height="8" rx="2" stroke="#FFFFFF" stroke-width="2"></rect>
+  <path d="M18 49H46" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+</svg>

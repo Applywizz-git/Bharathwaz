@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Database cylinder -->
+  <ellipse cx="32" cy="16" rx="14" ry="6" stroke="#FFFFFF" stroke-width="2"></ellipse>
+  <path d="M18 16V32C18 34.2091 24.268 36 32 36C39.732 36 46 34.2091 46 32V16" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M18 24C18 26.2091 24.268 28 32 28C39.732 28 46 26.2091 46 24" stroke="#FFFFFF" stroke-width="2"></path>
+
+  <!-- Heartbeat path -->
+  <path d="M21 44H26L29 39L33 49L36 44H43" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Compliance checkmark -->
+  <path d="M48 19L50.5 21.5L55 17" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Automation gear -->
+  <circle cx="15" cy="48" r="3" stroke="#FFFFFF" stroke-width="2"></circle>
+  <path d="M15 44V42M15 54V52M18.1213 45.8787L19.5355 44.4645M10.4645 51.5355L11.8787 50.1213M18.1213 50.1213L19.5355 51.5355M10.4645 44.4645L11.8787 45.8787" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+</svg>

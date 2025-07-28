@@ -1,0 +1,94 @@
+.skillsSection {
+  padding: 60px 20px;
+  background-color: #fdfdfd;
+  animation: fadeIn 1s ease-in;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.sectionDesc {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.skillsCol {
+  flex: 1;
+  min-width: 300px;
+}
+
+.skillBar {
+  margin-bottom: 25px;
+  animation: slideInUp 0.5s ease-in-out;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+
+.percent {
+  font-weight: 600;
+  color: #ff5533;
+}
+
+.barWrapper {
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 10px;
+  background: linear-gradient(to right, #a40a92, #ff5c8a);
+  border-radius: 6px;
+  transition: width 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

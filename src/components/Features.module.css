@@ -1,0 +1,56 @@
+.featureCard {
+  border: 2px solid #eee;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transform: scale(1);
+}
+
+.featureCard:hover {
+  transform: scale(1.03);
+  border-color: #ff5533;
+  box-shadow: 0 8px 20px rgba(255, 85, 51, 0.2);
+}
+
+/* Selected card - only orange border, no glow or tint */
+.open {
+  background: #fff;
+  border-color: #ff5533;
+  box-shadow: none;
+}
+
+.listInner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5533;
+}
+
+.title h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.icon img {
+  width: 48px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+
