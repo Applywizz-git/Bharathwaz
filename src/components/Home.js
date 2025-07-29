@@ -16,8 +16,15 @@ const Home = () => {
     <div className="devman_tm_section" id="home">
       <div className="devman_tm_hero">
         <div className="background">
-          <div className="image" data-img-url="img/hero/5.PNG" />
-        </div>
+          <div
+  className="image"
+  style={{
+    backgroundImage: "url('/img/hero/5.PNG')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+/>
+</div>
         <div className="container">
           <div className="content">
             <div className="left">
