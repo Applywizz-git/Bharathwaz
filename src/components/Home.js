@@ -19,7 +19,7 @@ const Home = () => {
           <div
   className="image"
   style={{
-    backgroundImage: "url('/img/hero/5.PNG')",
+    backgroundImage: "url('/img/hero/5.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}
